@@ -1,0 +1,275 @@
+﻿@page "/"
+
+@if(status=="phone"){
+
+     <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="form-container">
+              <form action="#">
+                <h2 class="text-center">ثبت نام</h2>
+                <div class="mb-3">
+                  <label for="fullname" class="form-label"
+                    >   به اپلیکشن شوفر خوش آمدید</label
+                  >
+@if(error != "none")
+{
+  <p class="alert alert-danger text-center">@error</p>
+}
+                  
+                  <input
+                    type="text"
+                    class="form-control"
+                    @bind="phonenumber"
+                    placeholder="شماره تلفن  خود را وارد کنید"
+                  />
+                </div>
+                <button type="submit" class="btn btn-info" @onclick="change" >ارسال  کد</button>
+              </form>
+            </div>
+          </div>
+  </div> 
+ 
+
+  
+     
+}
+
+
+@if(status=="otp"){
+  <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="form-container">
+              <form action="#">
+                <h2 class="text-center" >ویرایش شماره تلفن</h2>
+
+                <!-- بخش شماره تلفن فعلی و دکمه ویرایش -->
+                <div class="mb-3">
+                  <label for="display-number" class="form-label"
+                    >شماره تلفن فعلی:</label
+                  >
+                  <div class="row align-items-center g-2">
+                    <div class="col-8">
+                      <p id="display-number" class="display-number m-0">
+                        ۰۹۱۲۳۴۵۶۷۸۹ <!-- عدد ۱۱ رقمی نمایش داده شده -->
+                      </p>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="btn btn-info w-100" @onclick="phone">
+                        ویرایش
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- پنج خانه برای اعداد یک‌رقمی -->
+                <div class="mb-3">
+                  <label for="code" class="form-label">کد تأیید:</label>
+                  <div class="input-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <!-- دکمه‌های تایید نهایی و کد را دریافت نکردید -->
+                <div class="button-group">
+                  <button type="submit" class="btn btn-success w-100" @onclick="confirm">
+                    تایید نهایی
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary w-100 mt-3">
+                    کد را دریافت نکردید
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+}
+
+
+@if(status=="confirm"){
+    <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="form-container">
+              <form action="#">
+                <h2 class="text-center">  نقش خودتان وارد کنید</h2>
+                <div class="mb-3">
+                  <div class="display-number">
+                    @* <label for="driver-number">  راننده هستم</label> *@
+                    <button class="btn"> راننده هستم </button>
+                    
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="display-number">
+                    @* <label for="owner-number">   صاحب بار هستم </label> *@
+                    <button class="btn " @onclick="char2">صاحب بار هستم </button>
+                    
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success w-100">
+                   بازگشت
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+}
+
+@if(status=="char2"){
+
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="form-container">
+              <form action="#">
+                <h2 class="text-center">  نقش خودتان وارد کنید</h2>
+                <div class="mb-3">
+                  <div class="display-number">
+                    @* <label for="driver-number"> حقیقی  </label> *@
+                    <button class="btn">حقیقی </button>
+                    
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="display-number">
+                    @* <label for="owner-number">    حقوقی  </label> *@
+                    <button class="btn" @onclick="char3">حقوقی</button>
+                    
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success w-100">
+                   بازگشت
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+}
+
+@if(status=="char3"){
+
+    <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="form-container">
+              <form action="#">
+                <h2 class="text-center">حقیقی</h2>
+                <div class="mb-3">
+                  <div class="display-number">
+                    <label for="driver-number">کد ملی را وارد کنید</label>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="display-number">
+                    <label for="owner-number">آپلود کارت ملی</label>
+                  </div>
+                </div>
+                <!-- تغییرات اینجا اعمال شده -->
+                <div class="row g-2">
+                  <div class="col-6">
+                    <button type="submit" class="btn btn-success w-100">
+                      بازگشت
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <button type="submit" class="btn btn-success w-100">
+                      مرحله بعدی
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+}
+
+
+
+
+
+
+
+@code {
+     string status="phone";
+     string phonenumber;
+     string error="none" ;
+
+     private void change()
+     {
+
+      if(phonenumber == null || phonenumber =="" || phonenumber.Length >11 || phonenumber.Length < 11)
+      {
+           error ="ورود شماره تلفن با فرمت صحیح اجباری است ";
+      }else
+      {
+        status="otp";
+      }
+
+      
+     }
+     private void phone()
+     {
+
+      status="phone";
+     }
+
+     private void confirm(){
+
+      status="confirm";
+     }
+
+     private void char1(){
+
+      status="char1";
+
+     }
+
+     private void char2(){
+
+      status="char2";
+
+     }
+
+     private void char3()
+     {
+      status="char3";
+     }
+    
+    }

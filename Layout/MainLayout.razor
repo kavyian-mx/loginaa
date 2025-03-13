@@ -1,0 +1,55 @@
+﻿@inherits LayoutComponentBase
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ثبت نام</title>
+
+    <link rel="stylesheet" href="./stayle/bootstrap.rtl.min.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Vazir, sans-serif;
+        background-color: #f8f9fa;
+      }
+      .form-container {
+        background-color: #fff;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .form-container h2 {
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+      .form-container .btn {
+        width: 100%;
+        background-color: #333;
+        border: none;
+        color: #fff;
+      }
+      .form-container .btn:hover {
+        background-color: #222;
+      }
+      .form-container a {
+        color: #333;
+        text-decoration: none;
+      }
+      .form-container a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="d-flex align-items-center min-vh-100 p-4">
+      <div class="container">
+        @Body
+      </div>
+    </section>
+  </body>
+</html>

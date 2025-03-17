@@ -1,0 +1,41 @@
+@page "/"
+
+if(status=="phone")
+{
+
+<PhoneVerification
+PhoneNumber="@PhoneNumber"
+error= "@error"
+change="@change"
+
+
+/>
+
+
+}
+
+
+
+
+
+@code{
+
+string status ="phone";
+
+string Phonenumber;
+
+string error ="none";
+     private void change()
+     {
+
+      if(Phonenumber == null || Phonenumber =="" || Phonenumber.Length >11 || Phonenumber.Length < 11)
+      {
+           error ="ورود شماره تلفن با فرمت صحیح اجباری است ";
+      }else
+      {
+        status="otp";
+        
+      }
+
+
+}

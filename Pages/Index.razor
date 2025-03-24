@@ -18,17 +18,17 @@ change="@change"
 
 
 
-@code{
+@code {
 
 string status ="phone";
 
-string Phonenumber;
+string PhoneNumber;
 
 string error ="none";
      private void change()
      {
 
-      if(Phonenumber == null || Phonenumber =="" || Phonenumber.Length >11 || Phonenumber.Length < 11)
+      if(PhoneNumber == null || PhoneNumber =="" || PhoneNumber.Length >11 || PhoneNumber.Length < 11)
       {
            error ="ورود شماره تلفن با فرمت صحیح اجباری است ";
       }else
@@ -39,3 +39,7 @@ string error ="none";
 
 
 }
+
+}
+
+

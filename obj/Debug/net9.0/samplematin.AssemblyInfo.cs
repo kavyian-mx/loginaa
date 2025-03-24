@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("samplematin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5d8f1eb708982421fa207ba3a334392430173ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5348c258a5adf6a7e1e3def58da649a8e97e9c98")]
 [assembly: System.Reflection.AssemblyProductAttribute("samplematin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("samplematin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

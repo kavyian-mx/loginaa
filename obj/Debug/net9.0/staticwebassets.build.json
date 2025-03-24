@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "84PY87M+YUcAIVgm+93xpIys+8S+caVfLH/8jHWhQaw=",
+  "Hash": "6dGcgchglA/XTRntyukBqnv8hvtWVFbf3YgnHyF9cLA=",
   "Source": "samplematin",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "17qpmjy3wb",
-      "Integrity": "3TKHXVcuUVgHGAEOUBHSqA7PQNVRM7dqIKcCYQnrOA8=",
+      "Fingerprint": "wo6uzy4y4d",
+      "Integrity": "YAjJ2zQMVOEgF+q/NhpDF68P+SYKioYHr1K1x7MeClg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "zimwdvf6n8",
-      "Integrity": "9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ=",
+      "Fingerprint": "gawrqyz7r4",
+      "Integrity": "OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\samplematin.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "wodkw81snn",
-      "Integrity": "UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA=",
+      "Fingerprint": "muow5tw7cd",
+      "Integrity": "zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\webcil\\samplematin.wasm"
@@ -4301,12 +4301,12 @@
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\webcil\\WindowsBase.wasm"
     },
     {
-      "Identity": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-wodkw81snn.gz",
+      "Identity": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-muow5tw7cd.gz",
       "SourceId": "samplematin",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/samplematin#[.{fingerprint=wodkw81snn}]!.wasm.gz",
+      "RelativePath": "_framework/samplematin#[.{fingerprint=muow5tw7cd}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4315,8 +4315,8 @@
       "RelatedAsset": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mbvwlhe50k",
-      "Integrity": "bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk=",
+      "Fingerprint": "6ftg354rdw",
+      "Integrity": "8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.wasm"
@@ -5246,7 +5246,7 @@
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\7gkt9jixyy-17qpmjy3wb.gz",
+      "Identity": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\7gkt9jixyy-wo6uzy4y4d.gz",
       "SourceId": "samplematin",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\",
@@ -5260,8 +5260,8 @@
       "RelatedAsset": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "70093ks9ov",
-      "Integrity": "ueQ9yRRPFa2C/F/Klrs0pYZRfnGbjVBKM+G0gHg7eRk=",
+      "Fingerprint": "b9s464o9p1",
+      "Integrity": "8YExPHnEmOfODifZhoy7ZJuQRV+PvJjPc4elIajkzUM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9425,12 +9425,12 @@
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.wasm"
     },
     {
-      "Identity": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-zimwdvf6n8.gz",
+      "Identity": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-gawrqyz7r4.gz",
       "SourceId": "samplematin",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/samplematin#[.{fingerprint=zimwdvf6n8}]!.pdb.gz",
+      "RelativePath": "_framework/samplematin#[.{fingerprint=gawrqyz7r4}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9439,8 +9439,8 @@
       "RelatedAsset": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4ss0bkwume",
-      "Integrity": "TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE=",
+      "Fingerprint": "ink35aabvw",
+      "Integrity": "TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.pdb"
@@ -10705,11 +10705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3TKHXVcuUVgHGAEOUBHSqA7PQNVRM7dqIKcCYQnrOA8=\""
+          "Value": "\"YAjJ2zQMVOEgF+q/NhpDF68P+SYKioYHr1K1x7MeClg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +10719,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3TKHXVcuUVgHGAEOUBHSqA7PQNVRM7dqIKcCYQnrOA8="
+          "Value": "sha256-YAjJ2zQMVOEgF+q/NhpDF68P+SYKioYHr1K1x7MeClg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\7gkt9jixyy-17qpmjy3wb.gz",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\7gkt9jixyy-wo6uzy4y4d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081274382"
+          "Quality": "0.000081234768"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +10740,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12303"
+          "Value": "12309"
         },
         {
           "Name": "ETag",
-          "Value": "\"ueQ9yRRPFa2C/F/Klrs0pYZRfnGbjVBKM+G0gHg7eRk=\""
+          "Value": "\"8YExPHnEmOfODifZhoy7ZJuQRV+PvJjPc4elIajkzUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 16:51:48 GMT"
+          "Value": "Mon, 24 Mar 2025 18:21:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3TKHXVcuUVgHGAEOUBHSqA7PQNVRM7dqIKcCYQnrOA8=\""
+          "Value": "W/\"YAjJ2zQMVOEgF+q/NhpDF68P+SYKioYHr1K1x7MeClg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3TKHXVcuUVgHGAEOUBHSqA7PQNVRM7dqIKcCYQnrOA8="
+          "Value": "sha256-YAjJ2zQMVOEgF+q/NhpDF68P+SYKioYHr1K1x7MeClg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\7gkt9jixyy-17qpmjy3wb.gz",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\7gkt9jixyy-wo6uzy4y4d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12303"
+          "Value": "12309"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ueQ9yRRPFa2C/F/Klrs0pYZRfnGbjVBKM+G0gHg7eRk=\""
+          "Value": "\"8YExPHnEmOfODifZhoy7ZJuQRV+PvJjPc4elIajkzUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 16:51:48 GMT"
+          "Value": "Mon, 24 Mar 2025 18:21:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ueQ9yRRPFa2C/F/Klrs0pYZRfnGbjVBKM+G0gHg7eRk="
+          "Value": "sha256-8YExPHnEmOfODifZhoy7ZJuQRV+PvJjPc4elIajkzUM="
         }
       ]
     },
@@ -22285,7 +22285,7 @@
       ]
     },
     {
-      "Route": "_framework/samplematin.pdb",
+      "Route": "_framework/samplematin.gawrqyz7r4.pdb",
       "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22295,7 +22295,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28516"
+          "Value": "31184"
         },
         {
           "Name": "Content-Type",
@@ -22303,285 +22303,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ=\""
+          "Value": "\"OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.pdb",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-zimwdvf6n8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000046700602"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21412"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.pdb.gz",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-zimwdvf6n8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21412"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.wasm",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26901"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.wasm",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-wodkw81snn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000107921433"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9265"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.wasm.gz",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-wodkw81snn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9265"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.wodkw81snn.wasm",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26901"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:15 GMT"
+          "Value": "Mon, 24 Mar 2025 18:23:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22591,168 +22317,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wodkw81snn"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/samplematin.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.wodkw81snn.wasm",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-wodkw81snn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000107921433"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9265"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wodkw81snn"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/samplematin.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UNL41DmW6o52vntdXQuNjHzGIxpEzMaLiDP7kVNWRKA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.wodkw81snn.wasm.gz",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-wodkw81snn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9265"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wodkw81snn"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/samplematin.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bmCPvF2OQaeFrsNMUlP50W0+hHSWiyjiSUaLEdrDDOk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/samplematin.zimwdvf6n8.pdb",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "28516"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zimwdvf6n8"
+          "Value": "gawrqyz7r4"
         },
         {
           "Name": "label",
@@ -22760,18 +22325,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ="
+          "Value": "sha256-OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo="
         }
       ]
     },
     {
-      "Route": "_framework/samplematin.zimwdvf6n8.pdb",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-zimwdvf6n8.gz",
+      "Route": "_framework/samplematin.gawrqyz7r4.pdb",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-gawrqyz7r4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000046700602"
+          "Quality": "0.000042199435"
         }
       ],
       "ResponseHeaders": [
@@ -22781,15 +22346,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21412"
+          "Value": "23696"
         },
         {
           "Name": "ETag",
-          "Value": "\"TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE=\""
+          "Value": "\"TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22809,13 +22374,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ=\""
+          "Value": "W/\"OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zimwdvf6n8"
+          "Value": "gawrqyz7r4"
         },
         {
           "Name": "label",
@@ -22823,13 +22388,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9UyDtyhW4qHnrSxmj/TKYfTFUGGf0DY3KVK29U8cSiQ="
+          "Value": "sha256-OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo="
         }
       ]
     },
     {
-      "Route": "_framework/samplematin.zimwdvf6n8.pdb.gz",
-      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-zimwdvf6n8.gz",
+      "Route": "_framework/samplematin.gawrqyz7r4.pdb.gz",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-gawrqyz7r4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22838,7 +22403,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21412"
+          "Value": "23696"
         },
         {
           "Name": "Content-Type",
@@ -22846,11 +22411,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE=\""
+          "Value": "\"TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 16:12:16 GMT"
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22868,7 +22433,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zimwdvf6n8"
+          "Value": "gawrqyz7r4"
         },
         {
           "Name": "label",
@@ -22876,7 +22441,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TDPVL+Kpj4KdFU3Enj1NaqDPcZa1kDzgyr3Whs2qNXE="
+          "Value": "sha256-TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.muow5tw7cd.wasm",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muow5tw7cd"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/samplematin.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.muow5tw7cd.wasm",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-muow5tw7cd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000098116170"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muow5tw7cd"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/samplematin.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.muow5tw7cd.wasm.gz",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-muow5tw7cd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muow5tw7cd"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/samplematin.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.pdb",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.pdb",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-gawrqyz7r4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042199435"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23696"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OO7FF7wuvPJQ91H19hecZLl8uTBCXKdZ7P7H+uH7hfo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.pdb.gz",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\yg5grksfmn-gawrqyz7r4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TnjvmavWC8oz2L5nYJjHonlvNQuC/n3GDu+Uh3ikIfc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.wasm",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\bin\\Debug\\net9.0\\wwwroot\\_framework\\samplematin.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.wasm",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-muow5tw7cd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000098116170"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zr7xCSNrn90Js6fE5ZfcTKK9jjCNIQsFE5bASVxABlA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/samplematin.wasm.gz",
+      "AssetFile": "C:\\Users\\Matin\\Desktop\\samplematin-main\\obj\\Debug\\net9.0\\compressed\\0a3pzluupv-muow5tw7cd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 18:23:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8g8oTTHKtj4KPXqNITQVNx1xOum0+oEbPZwU84elDVw="
         }
       ]
     },

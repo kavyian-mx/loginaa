@@ -6,7 +6,7 @@
 <PhoneVerification
 PhoneNumber="@PhoneNumber"
 error= "@error"
-change="@change"/>
+OnSubmit="@change"/>
 }
 
 @if(status=="otp")
@@ -32,14 +32,14 @@ string status ="phone";
 string PhoneNumber;
 
 string error ="none";
-     private void change()
+     private void change(string PN)
      {
 
-      if(PhoneNumber == null || PhoneNumber =="" || PhoneNumber.Length >11 || PhoneNumber.Length < 11)
+      if(PN == null || PN =="" || PN.Length >11 || PN.Length < 11)
       {
            error ="ورود شماره تلفن با فرمت صحیح اجباری است ";
       }else
-      {
+      {  PhoneNumber=PN;
         status="otp";
         
       }

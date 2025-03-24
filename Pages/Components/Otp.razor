@@ -1,0 +1,110 @@
+  <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="form-container">
+              <form action="#">
+                <h2 class="text-center" >ویرایش شماره تلفن</h2>
+
+                <!-- بخش شماره تلفن فعلی و دکمه ویرایش -->
+                <div class="mb-3">
+                  <label for="display-number" class="form-label"
+                    >شماره تلفن فعلی:</label
+                  >
+                  <div class="row align-items-center g-2">
+                    <div class="col-8">
+                      <p id="display-number" class="display-number m-0">
+                        ۰۹۱۲۳۴۵۶۷۸۹ <!-- عدد ۱۱ رقمی نمایش داده شده -->
+                      </p>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="btn btn-info w-100" @onclick="BackPhone">
+                        ویرایش
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- پنج خانه برای اعداد یک‌رقمی -->
+                <div class="mb-3">
+                  <label for="code" class="form-label">کد تأیید:</label>
+                  <div class="input-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                    <input
+                      type="number"
+                      class="form-control"
+                      maxlength="1"
+                      min="0"
+                      max="9"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <!-- دکمه‌های تایید نهایی و کد را دریافت نکردید -->
+                <div class="button-group">
+                  <button type="submit" class="btn btn-success w-100" @onclick="varify">
+                    تایید نهایی
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary w-100 mt-3">
+                    کد را دریافت نکردید
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+        @code
+        {
+            [Parameter]
+            public string phoneNumber{get;set;}
+
+            [Parameter]
+
+            public string Code{get;set;}
+
+            [Parameter]
+
+            public EventCallback varify{get;set;}
+
+            [Parameter]
+            public string error{get;set;}
+
+            [Parameter]
+
+            public EventCallback BackPhone{get;set;}
+
+
+        }

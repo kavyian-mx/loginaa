@@ -1,17 +1,24 @@
 @page "/"
 
-if(status=="phone")
+@if(status=="phone")
 {
 
 <PhoneVerification
 PhoneNumber="@PhoneNumber"
 error= "@error"
-change="@change"
+change="@change"/>
+}
 
+@if(status=="otp")
+{
 
+<Otp
+PhoneNumber="@PhoneNumber"
+error= "@error"
+varify="@varify"
+Code="@Code"
+BackPhone="@BackPhone"
 />
-
-
 }
 
 
@@ -21,7 +28,7 @@ change="@change"
 @code {
 
 string status ="phone";
-
+ string Code;
 string PhoneNumber;
 
 string error ="none";
@@ -40,6 +47,31 @@ string error ="none";
 
 }
 
+private void varify()
+{  
+     if(Code==null || Code==""||Code.Length>5 || Code.Length<5)
+     {
+
+          error="ورود کد تایید با فرمت صحیح اجباری است ";
+
+                 
+     }else
+     
+     {
+        status="confirn";       
+
+     }
+
+
 }
+
+private void BackPhone()
+{
+
+     status="phone";
+}
+
+}
+
 
 

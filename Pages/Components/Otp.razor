@@ -1,110 +1,71 @@
-  <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="form-container">
-              <form action="#">
-                <h2 class="text-center" >ویرایش شماره تلفن</h2>
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="form-container">
+            <form action="#">
+                <h2 class="text-center">ویرایش شماره تلفن</h2>
 
                 <!-- بخش شماره تلفن فعلی و دکمه ویرایش -->
                 <div class="mb-3">
-                  <label for="display-number" class="form-label"
-                    >شماره تلفن فعلی:</label
-                  >
-                  <div class="row align-items-center g-2">
-                    <div class="col-8">
-                      <p id="display-number" class="display-number m-0">
-                       @phoneNumber
-                      </p>
+                    <label for="display-number" class="form-label">شماره تلفن فعلی:</label>
+                    <div class="row align-items-center g-2">
+                        <div class="col-8">
+                            <p id="display-number" class="display-number m-0">
+                                @phoneNumber
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-info w-100" @onclick="BackPhone">
+                                ویرایش
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-4">
-                      <button type="button" class="btn btn-info w-100" @onclick="BackPhone">
-                        ویرایش
-                      </button>
-                    </div>
-                  </div>
                 </div>
 
-                <!-- پنج خانه برای اعداد یک‌رقمی -->
+                <!-- فیلد تک عددی برای کد تایید -->
                 <div class="mb-3">
-                  <label for="code" class="form-label">کد تأیید:</label>
-                  <div class="input-group">
-                    <input
-                      type="number"
-                      class="form-control"
-                      maxlength="1"
-                      min="0"
-                      max="9"
-                      required
-                    />
-                    <input
-                      type="number"
-                      class="form-control"
-                      maxlength="1"
-                      min="0"
-                      max="9"
-                      required
-                    />
-                    <input
-                      type="number"
-                      class="form-control"
-                      maxlength="1"
-                      min="0"
-                      max="9"
-                      required
-                    />
-                    <input
-                      type="number"
-                      class="form-control"
-                      maxlength="1"
-                      min="0"
-                      max="9"
-                      required
-                    />
-                    <input
-                      type="number"
-                      class="form-control"
-                      maxlength="1"
-                      min="0"
-                      max="9"
-                      required
-                    />
-                  </div>
+                    <label for="code" class="form-label">کد تأیید:</label>
+                    <input type="number"
+                           class="form-control text-center"
+                           id="code"
+                           maxlength="5"
+                           min="10000"
+                           max="99999"
+                           @bind="Code"
+                           required
+                           style="-moz-appearance: textfield; /* فایرفاکس */">
+                    <small class="text-muted">کد ۵ رقمی ارسال شده را وارد کنید</small>
                 </div>
 
                 <!-- دکمه‌های تایید نهایی و کد را دریافت نکردید -->
                 <div class="button-group">
-                  <button type="submit" class="btn btn-success w-100" @onclick="varify">
-                    تایید نهایی
-                  </button>
-                  <button type="button" class="btn btn-outline-secondary w-100 mt-3">
-                    کد را دریافت نکردید
-                  </button>
+                    <button type="submit" class="btn btn-success w-100" @onclick="varify">
+                        تایید نهایی
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary w-100 mt-3">
+                        کد را دریافت نکردید
+                    </button>
                 </div>
-              </form>
-            </div>
-          </div>
+            </form>
         </div>
+    </div>
+</div>
 
+@code {
+    [Parameter]
+    public string phoneNumber { get; set; }
 
+    [Parameter]
+    public string Code { get; set; } // تغییر به string برای دریافت کد ۵ رقمی
 
-        @code
-        {
-            [Parameter]
-            public string phoneNumber{get;set;}
+    [Parameter]
+    public EventCallback varify { get; set; }
 
-            [Parameter]
+    [Parameter]
+    public string error { get; set; }
 
-            public string Code{get;set;}
+    [Parameter]
+    public EventCallback BackPhone { get; set; }
 
-            [Parameter]
-
-            public EventCallback varify{get;set;}
-
-            [Parameter]
-            public string error{get;set;}
-
-            [Parameter]
-
-            public EventCallback BackPhone{get;set;}
-
-
-        }
+    // اضافه کردن اعتبارسنجی
+    private bool IsValidCode => Code?.Length == 5 && int.TryParse(Code, out _);
+}

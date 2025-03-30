@@ -2158,10 +2158,10 @@ C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\refint\samplematin.dll
 C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\samplematin.pdb
 C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\ref\samplematin.dll
 C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\samplematin.sourcelink.json
-C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.gawrqyz7r4.pdb
-C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.muow5tw7cd.wasm
-C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.muow5tw7cd.wasm.gz
-C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.gawrqyz7r4.pdb.gz
-C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\compressed\0a3pzluupv-muow5tw7cd.gz
-C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\compressed\yg5grksfmn-gawrqyz7r4.gz
-C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\compressed\7gkt9jixyy-wo6uzy4y4d.gz
+C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.0lvxg4w0k9.pdb
+C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.7mppx9r4hy.wasm
+C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.7mppx9r4hy.wasm.gz
+C:\Users\Matin\Desktop\samplematin-main\bin\Debug\net9.0\wwwroot\_framework\samplematin.0lvxg4w0k9.pdb.gz
+C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\compressed\0a3pzluupv-7mppx9r4hy.gz
+C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\compressed\yg5grksfmn-0lvxg4w0k9.gz
+C:\Users\Matin\Desktop\samplematin-main\obj\Debug\net9.0\compressed\7gkt9jixyy-1i79vaxf15.gz
